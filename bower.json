@@ -1,0 +1,24 @@
+{
+  "name": "wsuheader",
+  "version": "0.0.0",
+  "homepage": "https://github.com/waynestate/wsuheader",
+  "authors": [
+    "Nick DeNardis <nick.denardis@gmail.com>"
+  ],
+  "description": "Wayne State University Global Header/Footer - Built on Foundation CSS",
+  "keywords": [
+    "html",
+    "css",
+    "responsive",
+    "header",
+    "footer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
