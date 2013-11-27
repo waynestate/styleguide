@@ -1,17 +1,18 @@
 {
-  "name": "wsuheader",
-  "version": "0.0.0",
-  "homepage": "https://github.com/waynestate/wsuheader",
+  "name": "styleguide",
+  "version": "0.0.1",
+  "homepage": "https://github.com/waynestate/styleguide",
   "authors": [
-    "Nick DeNardis <nick.denardis@gmail.com>"
+    "Nick DeNardis <ndenardis@wayne.edu>",
+    "Chris Pelzer <chrispelzer@wayne.edu>"
   ],
-  "description": "Wayne State University Global Header/Footer - Built on Foundation CSS",
+  "description": "Wayne State University Style Guide",
   "keywords": [
     "html",
     "css",
     "responsive",
-    "header",
-    "footer"
+    "scss",
+    "javescript"
   ],
   "license": "MIT",
   "ignore": [
