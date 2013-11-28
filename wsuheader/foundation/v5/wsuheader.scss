@@ -1,7 +1,55 @@
 .wsuheader {
+  @include background-image(linear-gradient(#093f39, #0c5449));
 
+  .row {
+    padding-top: 15px;
+  }
+
+  .nav-search {
+    text-align: center;
+
+      @include breakpoint(medium_above){
+        text-align: right;
+      }
+  }
+
+  .nav-search a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-search a:hover {
+    background: #006666;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .nav-search ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-search li {
+    display: inline;
+    font-size: .95em;
+  }
+
+  .nav-search .aimhigher a, .nav-search .aimhigher a:hover {
+    color: #fbe090;
+    text-transform: uppercase;
+  }
 }
 
 .wsufooter {
 
+}
+
+@media print {
+  .wsuheader, .wsufooter {
+    background: transparent;
+  }
+  .nav-search {
+    display: none;
+  }
 }
