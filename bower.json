@@ -22,7 +22,8 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "foundation": ">=4.0.0"
+  "devDependencies": {
+    "foundation": ">=4.0.0",
+    "foundation-icons": "*"
   }
 }
