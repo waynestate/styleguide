@@ -1,0 +1,24 @@
+// Custom Mixins
+@mixin breakpoint($point, $type:min) {
+    @if $point == large {
+        @media (min-width: $large-screen) { @content; }
+    }
+    @else if $point == medium {
+        @media (min-width: $small-screen) and (max-width: ($large-screen - 1)) { @content; }
+    }
+    @else if $point == small {
+        @media (min-width: 120px) and (max-width: ($small-screen - 1))  { @content; }
+    }
+    @else if $point == medium_under {
+        @media (max-width: ($large-screen - 1)) { @content; }
+    }
+    @else if $point == medium_above {
+        @media (min-width: $small-screen) { @content; }
+    }
+    @else if $type == min {
+        @media (min-width: $point) { @content; }
+    }
+    @else if $type == max {
+        @media (max-width: $point) { @content; }
+    }
+}
