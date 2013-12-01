@@ -1,0 +1,42 @@
+// COLORS
+$primary-color: #0c5449;
+$secondary-color: #e9e9e9;
+$alert-color: #c60f13;
+$success-color: #5da423;
+
+// Grid
+$row-width: emWidthCalc(1170px);
+$column-gutter: emWidthCalc(30px);
+$total-columns: 12;
+
+// Media Queries
+$small-screen: 768px;
+$medium-screen: 790px;
+$large-screen: 1170px;
+
+// Directories
+$img: "../images/";
+$font_dir: "../fonts/";
+
+// Typography
+$body-font-color: #222;
+$body-font-family: Arial, Helvetica, sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+// Default line height to use
+$line-height: 1.25em;
+
+// Top Bar
+$topbar-height: 45px;
+$topbar-margin-bottom: 0;
+$topbar-breakpoint: $medium-screen;
+$topbar-bg: transparent;
+$topbar-link-color: #000;
+$topbar-link-font-size: 0.9em;
+$topbar-menu-link-color: #000;
+$topbar-menu-icon-color: #000;
+$topbar-dropdown-bg: #fae4ae;
+
+$gs-color: #7399c6;
+$footer-bg-color: #005349;
