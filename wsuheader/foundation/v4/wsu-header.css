@@ -1,43 +1,3 @@
-/* Global Styles */
-body {
-	font: 100% Arial, Helvetica, sans-serif;
-	color: #333333;
-	background-color: #fff;
-	margin: 0px;
-	padding: 0px;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	-webkit-text-size-adjust:100%;
-}
-body .row, body .row p {
-	line-height: 1.6em;
-}
-table{
-	border: none;
-}
-ul, ol, dl{
-	list-style-position: inside;
-}
-a {
-	color: #0C5449;
-	text-decoration: underline;
-}
-h1 a, ul li a {
-	text-decoration:none;
-}
-dl dt a {
-	text-decoration:none;
-}
-a:hover {
-	text-decoration: none;
-}
-a.button, a.button:hover{
-	text-decoration: none;
-}
-table tr.even, table tr.alt, table tr:nth-of-type(even){
-	background: none;
-}
-
 /* Center align everything */
 .row.wsuheader .wordmark, .row.wsuheader .nav-search {
 	text-align: center;
@@ -112,7 +72,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even){
 	padding: 0px 0px 0px 9px;
 	width: 90%;
 	display: inline;
-	
+
 	/* Remove foundation styles */
 	border-right: none;
 	border: none;
@@ -131,8 +91,8 @@ table tr.even, table tr.alt, table tr:nth-of-type(even){
 	width: 7%;
 	display: inline;
 	color: #000;
-	background: #FFF;	
-	
+	background: #FFF;
+
 	/* Remove foundation styles */
 	border: none;
 	border-style: none;
@@ -181,7 +141,7 @@ table tr.even, table tr.alt, table tr:nth-of-type(even){
 	.row.wsuheader nav {
 		margin: 10px 0px 0px 0px;
 		text-align: right;
-	}	
+	}
 	.search {
 		float: right;
 		width: 330px;
@@ -192,11 +152,11 @@ table tr.even, table tr.alt, table tr:nth-of-type(even){
 	.row.wsuheader nav ul li a {
 		padding: 6px 6px;
 		font-size: 1em;
-	}	
+	}
 	.wordmark, .nav-search {
 		text-align: left;
 	}
 	.row.wsuheader .wordmark a img {
 		max-width: none;
-	}	
+	}
 }
