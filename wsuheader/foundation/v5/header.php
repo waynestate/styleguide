@@ -1,10 +1,10 @@
 <div class="wsuheader">
   <div class="row">
-    <div class="small-12 large-4 columns wordmark">
+    <div class="small-12 medium-6 large-4 columns wsuwordmark">
       <a href="http://wayne.edu/"><img alt="Wayne State University" src="//assets.wayne.edu/headers/main/foundation/v4/waynestate-wordmark.png"/></a>
     </div>
 
-    <div class="small-12 large-6 large-offset-2 columns nav-search">
+    <div class="small-12 medium-6 large-6 large-offset-2 columns wsusearch">
       <nav>
         <ul>
           <li><a href="http://pipeline.wayne.edu/">Pipeline</a></li>
@@ -14,11 +14,16 @@
         </ul>
       </nav>
 
-      <div class="search">
-        <form method="get" action="http://wayne.edu/search/">
-          <input name="q" placeholder="Search..." type="text"><button type="submit" class="button postfix right"><span class="general-foundicon-search"></span></button>
-        </form>
-      </div>
+      <form method="get" action="http://wayne.edu/search/">
+        <div class="row collapse">
+          <div class="small-10 columns">
+            <input name="q" placeholder="Search..." type="text" />
+          </div>
+          <div class="small-2 columns">
+            <button type="submit" class="button postfix"><span class="foundicon-search"></span></button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </div>
