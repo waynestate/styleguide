@@ -10,7 +10,7 @@
   }
 
   .wsuwordmark {
-    @include breakpoint(small_above){
+    @media #{$small-up} {
       text-align: left;
     }
 
@@ -21,7 +21,7 @@
       color: transparent;
       display: block;
 
-      @include breakpoint(small_above){
+      @media #{$small-up} {
         margin-top: 25px;
       }
     }
@@ -31,7 +31,7 @@
   .wsusearch {
     margin: 10px 0 0 0;
 
-    @include breakpoint(medium_above){
+    @media #{$medium-up} {
       margin: 0;
       text-align: right;
     }
@@ -58,11 +58,11 @@
       display: inline;
       font-size: 0.9em;
 
-      @include breakpoint(medium){
+      @media #{$medium-only} {
         font-size: 1.0em;
       }
 
-      @include breakpoint(medium_above){
+      @media #{$medium-up} {
         font-size: 1.1em;
       }
     }
@@ -140,7 +140,7 @@
   }
 
   .copyright {
-    @include breakpoint(medium_above){
+    @media #{$medium-up}  {
       text-align: right;
     }
   }
