@@ -5,14 +5,34 @@
     padding-top: 15px;
   }
 
-  .wordmark, .nav-search {
+  .wsuwordmark, .wsusearch {
     text-align: center;
   }
 
-  .nav-search {
-    margin: 10px 0px;
+  .wsuwordmark {
+    @include breakpoint(small_above){
+      text-align: left;
+    }
+
+    a {
+      white-space: nowrap;
+      overflow: hidden;
+      height: 35px;
+      color: transparent;
+      display: block;
+
+      @include breakpoint(small_above){
+        margin-top: 25px;
+      }
+    }
+
+  }
+
+  .wsusearch {
+    margin: 10px 0 0 0;
 
     @include breakpoint(medium_above){
+      margin: 0;
       text-align: right;
     }
 
@@ -36,7 +56,15 @@
 
     li {
       display: inline;
-      font-size: 1.1em;
+      font-size: 0.9em;
+
+      @include breakpoint(medium){
+        font-size: 1.0em;
+      }
+
+      @include breakpoint(medium_above){
+        font-size: 1.1em;
+      }
     }
 
     .aimhigher a, .aimhigher a:hover {
@@ -89,14 +117,40 @@
 }
 
 .wsufooter {
+  @include background-image(linear-gradient(#b1c5c2, #cbdbd9));
+  border-top: 1px solid #536461;
 
+  p {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 6px 0;
+  }
+
+  a {
+    color: #0C5449;
+    text-decoration: underline;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  .privacy {
+    text-align: left;
+  }
+
+  .copyright {
+    @include breakpoint(medium_above){
+      text-align: right;
+    }
+  }
 }
 
 @media print {
   .wsuheader, .wsufooter {
     background: transparent;
   }
-  .nav-search {
+  .wsusearch {
     display: none;
   }
 }
