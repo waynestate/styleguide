@@ -25,7 +25,8 @@ $line-height: 1.25em;
 // Top Bar
 $topbar-height: 45px;
 $topbar-margin-bottom: 0;
-$topbar-breakpoint: $medium-screen;
+$topbar-breakpoint: #{lower-bound($medium-range)};
+$topbar-media-query: $medium-up;
 $topbar-bg: transparent;
 $topbar-link-color: #000;
 $topbar-link-font-size: 0.9em;
