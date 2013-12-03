@@ -1,10 +1,10 @@
 <div class="wsuheader">
   <div class="row">
-    <div class="small-12 medium-6 large-4 columns wsuwordmark">
-      <a href="http://wayne.edu/"><img alt="Wayne State University" src="//assets.wayne.edu/headers/main/foundation/v4/waynestate-wordmark.png"/></a>
+    <div class="small-12 medium-6 large-8 columns wsuwordmark">
+      <a href="http://wayne.edu/"><img alt="Wayne State University" src="//assets.wayne.edu/headers/main/foundation/v5/waynestate-wordmark.png"/></a>
     </div>
 
-    <div class="small-12 medium-6 large-6 large-offset-2 columns wsusearch">
+    <div class="small-12 medium-6 large-4 columns wsusearch hide-for-print">
       <nav>
         <ul>
           <li><a href="http://pipeline.wayne.edu/">Pipeline</a></li>

@@ -5,14 +5,18 @@ $alert-color: #c60f13;
 $success-color: #5da423;
 
 // Grid
-$row-width: emWidthCalc(1170px);
-$column-gutter: emWidthCalc(30px);
+$row-width: rem-calc(1170px);
+$column-gutter: rem-calc(30px);
 $total-columns: 12;
 
 // Media Queries
 $small-screen: 768px;
 $medium-screen: 790px;
 $large-screen: 1170px;
+
+$small-range: (0em, rem-calc(768)); /* 0, 768px */
+$medium-range: (rem-calc(769), rem-calc(1169)); /* 769px, 1169px */
+$large-range: (rem-calc(1170), rem-calc(1920)); /* 1170px, 1920px */
 
 // Directories
 $img: "../images/";

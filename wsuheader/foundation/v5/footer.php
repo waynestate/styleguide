@@ -4,7 +4,7 @@
       <p><a href="http://wayne.edu/policies/">Privacy and University Policies</a></p>
     </div>
     <div class="small-12 medium-6 large-6 columns copyright">
-      <p><a href="http://wayne.edu/">Wayne State University</a> &copy; 2013</p>
+      <p><a href="http://wayne.edu/">Wayne State University</a> &copy; <?php echo date('Y'); ?></p>
     </div>
   </div>
 </div>
