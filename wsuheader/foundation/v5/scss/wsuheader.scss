@@ -131,7 +131,13 @@
   .wsuheader, .wsufooter {
     background: transparent;
   }
-  .wsusearch {
-    display: none;
+  .wsuheader {
+      .wsuwordmark {
+      text-align: left;
+
+        a[href]:after {
+          content:""
+        }
+    }
   }
 }
