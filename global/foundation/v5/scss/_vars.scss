@@ -14,10 +14,6 @@ $small-screen: 768px;
 $medium-screen: 790px;
 $large-screen: 1170px;
 
-$small-range: (0em, rem-calc(768)); /* 0, 768px */
-$medium-range: (rem-calc(769), rem-calc(1169)); /* 769px, 1169px */
-$large-range: (rem-calc(1170), rem-calc(1920)); /* 1170px, 1920px */
-
 // Directories
 $img: "../images/";
 $font_dir: "../fonts/";
