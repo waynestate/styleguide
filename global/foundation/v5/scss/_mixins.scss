@@ -1,1 +1,9 @@
-// Custom mixins
+// Custom Mixins
+@mixin breakpoint($point, $type:min) {
+    @if $type == min {
+        @media (min-width: $point) { @content; }
+    }
+    @else if $type == max {
+        @media (max-width: $point) { @content; }
+    }
+}
