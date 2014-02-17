@@ -12,6 +12,11 @@
 
 .wsuheader {
   @include background-image(linear-gradient(#093f39, #0c5449));
+  // needs latest Compass, add '@import "compass"' to your scss
+  @include filter-gradient(#093f39, #0c5449, vertical); // IE6-8
+  // IE9 SVG, needs conditional override of 'filter' to 'none'
+  $experimental-support-for-svg: true;
+
   padding: 10px 0;
   font: 100% Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -111,6 +116,11 @@
 
 .wsufooter {
   @include background-image(linear-gradient(#b1c5c2, #cbdbd9));
+  // needs latest Compass, add '@import "compass"' to your scss
+  @include filter-gradient(#b1c5c2, #cbdbd9, vertical); // IE6-8
+  // IE9 SVG, needs conditional override of 'filter' to 'none'
+  $experimental-support-for-svg: true;
+
   border-top: 1px solid #536461;
 
   p {
