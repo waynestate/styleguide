@@ -8,3 +8,23 @@ acronym, acronym[title] {
 
 // Fix the zoom on iOS devices
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16px; }
+
+// Responsive tables
+table.responsive {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+
+    th, td {
+        padding: 1em;
+    }
+    tr:nth-child(odd) {
+        background-color: #f4f4f4;
+    }
+    thead tr:first-child {
+        background-color: #21201c;
+        color: #fff;
+        text-align: left;
+    }
+}
