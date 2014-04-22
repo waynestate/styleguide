@@ -1,0 +1,19 @@
+// Responsive tables
+table.responsive {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+
+    th, td {
+        padding: 1em;
+    }
+    tr:nth-child(odd) {
+        background-color: #f4f4f4;
+    }
+    thead tr:first-child {
+        background-color: #21201c;
+        color: #fff;
+        text-align: left;
+    }
+}
