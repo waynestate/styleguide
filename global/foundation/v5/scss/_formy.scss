@@ -1,0 +1,129 @@
+.formy {
+    form{
+        width: 100%;
+        @media #{$medium-up} {
+            width: 40%;
+        }
+    }
+
+    /* All Breakpoints */
+    fieldset {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    fieldset legend {
+        display: none;
+    }
+
+    /* Errors */
+    .error p {
+        margin-top: rem-calc(4);
+        font-size: rem-calc(14);
+        color: #c60f13;
+    }
+    fieldset div.error .checkbox, fieldset div.error .radio {
+        padding-bottom: 0;
+    }
+    fieldset div.error .checkbox p, fieldset div.error .radio p {
+        padding-bottom: rem-calc(15);
+    }
+
+    /* Froms */
+    .buttons{
+        margin-top: 1em;
+    }
+    .field_group{
+        width: 75%;
+
+        @media #{$medium-up} {
+            width: 50%;
+        }
+    }
+    label {
+        color: #4d4d4d;
+        font-size: rem-calc(16);
+
+        em{
+            padding-right: rem-calc(5);
+            color: #ff0000;
+        }
+    }
+    fieldset div.checkbox input, fieldset div.radio input {
+        margin: 0;
+        padding: 0;
+    }
+    fieldset div.checkbox, fieldset div.radio {
+        margin: 0;
+        padding: rem-calc(0 0 20 0);
+        border: 0;
+        float: none;
+    }
+    fieldset div.checkbox div, fieldset div.radio div {
+        border: 0;
+        margin: rem-calc(4 0 0 0);
+    }
+    fieldset div.checkbox label, fieldset div.radio label {
+        float: none;
+        display: inline;
+        margin-left: rem-calc(5);
+    }
+    .formybutton {
+        margin: rem-calc(20 0 0 0);
+        font-size: rem-calc(17);
+    }
+
+    /* Textareas */
+    textarea {
+        height: rem-calc(500);
+    }
+
+    /* Selects */
+    .select select {
+        width: 50%;
+    }
+    .select #country, .select #state {
+        width: 100%;
+    }
+
+    /* Description and text blocks size */
+    p {
+        font-size: rem-calc(16);
+        line-height: 1.6em;
+    }
+
+    /* Text Headings */
+    .field_group h2 {
+        color: #333;
+        font-size: 1.3em;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    /* Login */
+    .login-info li {
+        background: transparent url("//assets.wayne.edu/icons/famfamfam/v1/information.gif") no-repeat left center;
+        border-bottom: 1px solid #ccc;
+        font-size: rem-calc(15);
+        padding: rem-calc(5 0 5 25);
+    }
+    .login-info ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .login-info ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+    .login-info p a, .formy_logout a {
+        color: #0C5449;
+        text-decoration: underline;
+    }
+    .formy_logout {
+        text-align: right;
+    }
+
+    .fieldgroup em, .fieldsingle em {
+        color: #ff0000;
+    }
+}
