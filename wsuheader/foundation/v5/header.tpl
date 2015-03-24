@@ -8,7 +8,7 @@
       <nav>
         <ul>
           <li><a href="http://pipeline.wayne.edu/">Pipeline</a></li>
-          <li><a href="http://ucomm.wayne.edu/~fsd/">Directory</a></li>
+          <li><a href="http://wayne.edu/directory/">Directory</a></li>
           <li><a href="http://wayne.edu/contact/">Contact</a></li>
           <li class="aimhigher"><a href="http://wayne.edu/aimhigher/">Aim Higher</a></li>
         </ul>
@@ -17,10 +17,11 @@
       <form method="get" action="http://wayne.edu/search/">
         <div class="row collapse">
           <div class="small-10 columns">
-            <input name="q" placeholder="Search..." type="text" />
+            <label for="q">Search:</label>
+            <input name="q" id="q" placeholder="Search..." type="text" />
           </div>
           <div class="small-2 columns">
-            <button type="submit" class="button postfix"><span class="fi-magnifying-glass"></span></button>
+            <button type="submit" class="button postfix"><span class="fi-magnifying-glass">Search</span></button>
           </div>
         </div>
       </form>
