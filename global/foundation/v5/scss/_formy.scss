@@ -1,84 +1,74 @@
 .formy {
-    form{
-        width: 100%;
-        @media #{$medium-up} {
-            width: 40%;
+    // Fieldsets
+    fieldset {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+
+        legend {
+            display: none;
         }
     }
 
-    /* All Breakpoints */
-    fieldset {
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-    fieldset legend {
-        display: none;
-    }
-
-    /* Errors */
-    .error p {
-        margin-top: rem-calc(4);
-        font-size: rem-calc(14);
-        color: #c60f13;
+    // Errors
+    .error {
+        p {
+            margin-top: 4px;
+            font-size: .8em;
+            color: #c60f13;
+        }
+        input, textarea, select {
+            border-color: #c60f13;
+            background-color: rgba(198,15,19,0.1);
+            margin-bottom: 0;
+        }
     }
     fieldset div.error .checkbox, fieldset div.error .radio {
-        padding-bottom: 0;
+        padding-bottom: 0px;
     }
     fieldset div.error .checkbox p, fieldset div.error .radio p {
-        padding-bottom: rem-calc(15);
+        padding-bottom: 15px;
     }
 
-    /* Froms */
-    .buttons{
-        margin-top: 1em;
-    }
-    .field_group{
-        width: 75%;
-
-        @media #{$medium-up} {
-            width: 50%;
-        }
-    }
+    // Labels
     label {
         color: #4d4d4d;
-        font-size: rem-calc(16);
-
-        em{
-            padding-right: rem-calc(5);
-            color: #ff0000;
-        }
+        font-size: 1em;
     }
+
+    // Checkboxes and radio
     fieldset div.checkbox input, fieldset div.radio input {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
     }
     fieldset div.checkbox, fieldset div.radio {
-        margin: 0;
-        padding: rem-calc(0 0 20 0);
-        border: 0;
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        border: 0px;
         float: none;
     }
     fieldset div.checkbox div, fieldset div.radio div {
-        border: 0;
-        margin: rem-calc(4 0 0 0);
+        border: 0px;
+        margin: 4px 0px 0px 0px;
     }
     fieldset div.checkbox label, fieldset div.radio label {
         float: none;
         display: inline;
-        margin-left: rem-calc(5);
+        margin-left: 5px;
     }
+
+    // The subit button
     .formybutton {
-        margin: rem-calc(20 0 0 0);
-        font-size: rem-calc(17);
+        margin: 20px 0px 0px 0px;
+        font-size: 1.1em;
     }
 
-    /* Textareas */
+    // Textareas
     textarea {
-        height: rem-calc(500);
+        height: 8em;
     }
 
-    /* Selects */
+    // Selects
     .select select {
         width: 50%;
     }
@@ -86,29 +76,28 @@
         width: 100%;
     }
 
-    /* Description and text blocks size */
+    // Description and text blocks size
     p {
-        font-size: rem-calc(16);
+        font-size: 1em;
         line-height: 1.6em;
     }
 
-    /* Text Headings */
+    // Text Headings
     .field_group h2 {
         color: #333;
         font-size: 1.3em;
         border-bottom: 1px solid #EAEAEA;
     }
 
-    /* Login */
+    // Login
     .login-info li {
-        background: transparent url("//assets.wayne.edu/icons/famfamfam/v1/information.gif") no-repeat left center;
         border-bottom: 1px solid #ccc;
-        font-size: rem-calc(15);
-        padding: rem-calc(5 0 5 25);
+        font-size: 0.9em;
+        padding: 5px 0px 5px 25px;
     }
     .login-info ul {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         list-style: none;
     }
     .login-info ul li a {
@@ -123,7 +112,43 @@
         text-align: right;
     }
 
+    // Examples
     .fieldgroup em, .fieldsingle em {
         color: #ff0000;
+    }
+}
+
+/* Small */
+@media #{$small-only} {
+    #info div.payment{
+        padding: 10px;
+    }
+    .paymentbutton {
+        text-align: center;
+    }
+
+    .formybutton, .actions {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .formybutton input, .actions input {
+        width: 100%;
+    }
+    .select select {
+        width: 100%;
+    }
+    .fieldsingle {
+        margin-bottom: 5px;
+    }
+}
+
+/* Smallish */
+@media (min-width: 767px) and (max-width: 920px) {
+    /* This is for making the form fields slightly bigger for this breakpoint so they aren't squished. */
+    .formy .fieldgroup, .formy .singlefield {
+        width: 75%;
+    }
+    .formy .select select {
+        width: 65%;
     }
 }
