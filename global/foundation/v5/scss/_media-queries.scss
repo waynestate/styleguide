@@ -1,0 +1,10 @@
+// Enable the large breakpoints
+$include-xl-html-grid-classes: true;
+$include-xl-html-block-grid-classes: true;
+
+// Set the breakpoint ranges
+$small-range: (0em, 30em); /* 0, 480 */
+$medium-range: (30.063em, 40em); /* 481px, 640px */
+$large-range: (40.063em, 64em); /* 641px, 1024px */
+$xlarge-range: (64.063em, 90em); /* 1025px, 1440px */
+$xxlarge-range: (90.063em); /* 1441 */

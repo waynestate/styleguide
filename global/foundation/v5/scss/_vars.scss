@@ -8,32 +8,3 @@ $success-color: #5da423;
 $row-width: rem-calc(1170px);
 $column-gutter: rem-calc(30px);
 $total-columns: 12;
-
-// Directories
-$img: "../images/";
-$font_dir: "../fonts/";
-$fi-path: "//assets.wayne.edu/fonts/foundation/v3";
-
-// Typography
-$body-font-color: #222;
-$body-font-family: Arial, Helvetica, sans-serif;
-$body-font-weight: normal;
-$body-font-style: normal;
-
-// Default line height to use
-$line-height: 1.25em;
-
-// Top Bar
-$topbar-height: 45px;
-$topbar-margin-bottom: 0;
-$topbar-breakpoint: #{lower-bound($medium-range)};
-$topbar-media-query: $medium-up;
-$topbar-bg: transparent;
-$topbar-link-color: #000;
-$topbar-link-font-size: 0.9em;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
-$topbar-dropdown-bg: #fae4ae;
-
-$gs-color: #7399c6;
-$footer-bg-color: #005349;
