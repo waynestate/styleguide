@@ -1,29 +1,32 @@
 {
-  "name": "styleguide",
-  "version": "0.1.2",
-  "homepage": "https://github.com/waynestate/styleguide",
-  "authors": [
-    "Nick DeNardis <ndenardis@wayne.edu>",
-    "Chris Pelzer <chrispelzer@wayne.edu>"
-  ],
-  "description": "Wayne State University Style Guide",
-  "keywords": [
-    "html",
-    "css",
-    "responsive",
-    "scss",
-    "javescript"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "devDependencies": {
-    "foundation": ">=4.0.0",
-    "foundation-icons": "*"
-  }
+    "name": "styleguide",
+    "version": "0.1.2",
+    "homepage": "https://github.com/waynestate/styleguide",
+    "authors": [
+        "Nick DeNardis <ndenardis@wayne.edu>",
+        "Chris Pelzer <chrispelzer@wayne.edu>",
+        "Robert Vrabel <rvrabel@wayne.edu>"
+    ],
+    "description": "Wayne State University Style Guide",
+    "keywords": [
+        "html",
+        "css",
+        "responsive",
+        "scss",
+        "javescript"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "foundation": "~5.5"
+    },
+    "devDependencies": {
+
+    }
 }
