@@ -14,6 +14,7 @@
     width: 1em;
     text-align: center;
     font-size: 1.1em;
+    margin-right: 0.2em;
 
     /* For safety - reset parent styles, that can break glyph codes*/
     font-variant: normal;
@@ -46,7 +47,7 @@
     .wsuwordmark {
         text-align: center;
 
-        @media #{$medium-up} {
+        @media #{$large-up} {
             text-align: left;
             margin-top: 15px;
         }
@@ -63,7 +64,7 @@
     .wsusearch {
         text-align: center;
 
-        @media #{$medium-up} {
+        @media #{$large-up} {
             text-align: right;
         }
 
@@ -74,7 +75,7 @@
             margin: 0;
             font-size: 0.9em;
 
-            @media #{$medium-up} {
+            @media #{$large-up} {
                 font-size: 1em;
                 padding: 3px;
                 margin: 0 1px;
@@ -98,7 +99,7 @@
             padding: 0 0 5px;
             font-size: 1.1em;
 
-            @media #{$medium-up} {
+            @media #{$large-up} {
                 font-size: 1.0em;
             }
 
@@ -111,7 +112,7 @@
             margin: 0;
             padding: 0;
 
-            @media #{$medium-up} {
+            @media #{$large-up} {
                 margin-bottom: 5px;
             }
 
@@ -168,7 +169,7 @@
     }
 
     .copyright {
-        @media #{$medium-up} {
+        @media #{$large-up} {
             text-align: right;
         }
     }
