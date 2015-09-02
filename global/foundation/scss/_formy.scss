@@ -13,7 +13,7 @@
     // Errors
     .error {
         p {
-            margin-top: 4px;
+            margin: 4px auto 10px;
             font-size: .8em;
             color: #c60f13;
         }
@@ -22,12 +22,10 @@
             background-color: rgba(198,15,19,0.1);
             margin-bottom: 0;
         }
-    }
-    fieldset div.error .checkbox, fieldset div.error .radio {
-        padding-bottom: 0px;
-    }
-    fieldset div.error .checkbox p, fieldset div.error .radio p {
-        padding-bottom: 15px;
+        .checkbox, .radio {
+            background-color: rgba(198,15,19,0.1);
+            padding-bottom: 0;
+        }
     }
 
     // Labels
@@ -37,24 +35,27 @@
     }
 
     // Checkboxes and radio
-    fieldset div.checkbox input, fieldset div.radio input {
+    div.checkbox input, div.radio input {
         margin: 0px;
         padding: 0px;
     }
-    fieldset div.checkbox, fieldset div.radio {
+    div.checkbox, div.radio {
         margin: 0px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 15px 0px;
         border: 0px;
         float: none;
     }
-    fieldset div.checkbox div, fieldset div.radio div {
+    div.checkbox div, div.radio div {
         border: 0px;
         margin: 4px 0px 0px 0px;
     }
-    fieldset div.checkbox label, fieldset div.radio label {
+    div.checkbox label, div.radio label {
         float: none;
         display: inline;
         margin-left: 5px;
+    }
+    div.checkbox input[type=checkbox], div.radio input[type=radio] {
+        margin-bottom: 0;
     }
 
     // The subit button
