@@ -16,7 +16,7 @@
                 </ul>
             </nav>
 
-            <form method="get" action="http://wayne.edu/search/">
+            <form method="get" action="https://wayne.edu/search/">
                 <div class="row collapse">
                     <div class="small-10 medium-10 columns">
                         <label for="q">Search:</label>
