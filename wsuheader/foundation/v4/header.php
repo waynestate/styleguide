@@ -7,7 +7,7 @@
   		<div class="small-12 large-6 large-offset-2 columns nav-search">
   			<nav>
 	            <ul>
-	                <li><a href="http://pipeline.wayne.edu/">Pipeline</a></li>
+					<li><a href="http://academica.wayne.edu/">Academica</a></li>
 	                <li><a href="http://wayne.edu/directory/">Directory</a></li>
 	                <li><a href="http://wayne.edu/contact/">Contact</a></li>
 	                <li class="aimhigher"><a href="http://wayne.edu/aimhigher/">Aim Higher</a></li>
