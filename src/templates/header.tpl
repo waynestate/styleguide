@@ -33,22 +33,6 @@
                     </form>
                 </div>
             </div>
-
-            <!--
-            <form method="get" action="https://wayne.edu/search/">
-                <div class="row collapse">
-                    <div class="small-10 medium-10 columns">
-                        <label for="q">Search:</label>
-                        <input name="q" id="q" placeholder="Search..." type="text"/>
-                    </div>
-                    <div class="small-2 medium-2 columns">
-                        <button type="submit" class="button postfix"><span
-                                class="search-icon"><span>Search</span></span>
-                        </button>
-                    </div>
-                </div>
-            </form>
-            -->
         </div>
     </div>
 </div>
