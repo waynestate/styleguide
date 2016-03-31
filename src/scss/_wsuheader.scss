@@ -47,7 +47,7 @@
     .wsuwordmark {
         text-align: center;
 
-        @media #{$large-up} {
+        @include breakpoint(large up) {
             text-align: left;
             margin-top: 15px;
         }
@@ -64,7 +64,7 @@
     .wsusearch {
         text-align: center;
 
-        @media #{$large-up} {
+        @include breakpoint(large up) {
             text-align: right;
         }
 
@@ -75,11 +75,11 @@
             margin: 0;
             font-size: 0.9em;
 
-            @media #{$small-only} {
+            @include breakpoint(small only) {
                 font-size: 0.8em;
             }
 
-            @media #{$large-up} {
+            @include breakpoint(large up) {
                 font-size: 1em;
                 padding: 3px;
                 margin: 0 1px;
@@ -103,7 +103,7 @@
             padding: 0 0 5px;
             font-size: 1.1em;
 
-            @media #{$large-up} {
+            @include breakpoint(large up) {
                 font-size: 1.0em;
             }
 
@@ -116,7 +116,7 @@
             margin: 0;
             padding: 0;
 
-            @media #{$large-up} {
+            @include breakpoint(large up) {
                 margin-bottom: 5px;
             }
 
@@ -135,7 +135,7 @@
                 font-size: 1.4em;
                 text-align: right;
                 padding-right: 4px;
-                @media #{$small-only} {
+                @include breakpoint(small only) {
                     padding-right: 25px;
                 }
                 overflow: hidden;
@@ -176,7 +176,7 @@
     }
 
     .copyright {
-        @media #{$large-up} {
+        @include breakpoint(large up) {
             text-align: right;
         }
     }
