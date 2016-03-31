@@ -19,6 +19,6 @@
     },
     "homepage": "http://waynestate.github.io/styleguide/",
     "devDependencies": {
-        "bower": "~1.2.7"
+        "foundation-sites": "^6.2.0"
     }
 }
