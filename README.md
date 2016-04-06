@@ -1,7 +1,7 @@
 Wayne State Style Guide
 =========
 
-Wayne State University global header/footer and other general styles. Build on [Zurb Foundation 5](http://foundation.zurb.com/).
+Wayne State University global header/footer and other general styles. Build on [Zurb Foundation 6](http://foundation.zurb.com/).
 
 ## Desktop
 ![desktop](http://waynestate.github.io/styleguide/images/header-fd5-desktop.png "Header on the desktop")

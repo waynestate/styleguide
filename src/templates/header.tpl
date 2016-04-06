@@ -16,18 +16,23 @@
                 </ul>
             </nav>
 
-            <form method="get" action="https://wayne.edu/search/">
-                <div class="row collapse">
-                    <div class="small-10 medium-10 columns">
-                        <label for="q">Search:</label>
-                        <input name="q" id="q" placeholder="Search..." type="text"/>
-                    </div>
-                    <div class="small-2 medium-2 columns">
-                        <button type="submit" class="button postfix"><span class="search-icon"><span>Search</span></span>
-                        </button>
-                    </div>
+            <div class="row collapse">
+                <div class="small-12">
+                    <form method="get" action="https://wayne.edu/search/">
+                        <div class="input-group">
+                            <label for="q">Search:</label>
+                            <input name="q" class="input-group-field" id="q" placeholder="Search..." type="text"/>
+                            <div class="input-group-button">
+                                <button type="submit" class="button">
+                                    <span class="search-icon">
+                                        <span>Search</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
