@@ -1,6 +1,6 @@
 {
     "name": "@waynestate/styleguide",
-    "version": "0.2.12",
+    "version": "1.0.0",
     "description": "Wayne State University Style Guide",
     "repository": {
         "type": "git",
@@ -19,6 +19,6 @@
     },
     "homepage": "http://waynestate.github.io/styleguide/",
     "devDependencies": {
-        "bower": "~1.2.7"
+        "foundation-sites": "^6.2.0"
     }
 }
