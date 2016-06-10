@@ -84,6 +84,11 @@
             }
         }
 
+        // To avoid double spacing below the input box since it is already on the container
+        .input-group {
+            margin-bottom: 0;
+        }
+
         // This is to make the background color of the button white so it matches the height of the rest of the search box
         .input-group-button {
             background: #fff;
