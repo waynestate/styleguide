@@ -31,6 +31,27 @@
             color: transparent;
             display: block;
         }
+
+        // Sets the size of the wordmark
+        svg {
+            width: 350px;
+            height: 34px;
+
+            // Avoid cutting the wordmark off in this specific range
+            // Temporary fix until we learn about how to manipulate viewbox
+            @media (min-width: 600px) and (max-width: 790px) {
+                width: 100%;
+            }
+        }
+
+        // Changes the color of the svg
+        path, g {
+            fill: white;
+
+            @media print {
+                fill: black !important;
+            }
+        }
     }
 
     .wsusearch {
@@ -52,6 +73,10 @@
             }
 
             @include breakpoint(large up) {
+                font-size: 0.82em;
+            }
+
+            @include breakpoint(xlarge up) {
                 font-size: 1em;
                 padding: 3px;
                 margin: 0 1px;
