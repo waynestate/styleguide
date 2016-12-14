@@ -205,6 +205,55 @@
     }
 }
 
+.wsu-mission-background {
+    background: url('//wayne.edu/promos/2960/mission-bg.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.wsu-mission-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wsu-mission {
+    padding: 2.5rem;
+
+    @include breakpoint(large up) {
+        padding: 3.75rem;
+    }
+
+    h2 a {
+        color: #fff;
+        font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
+        font-size: 3.125rem;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+        line-height: 0.9em;
+        margin: 0 0 1.75rem 0;
+
+        @include breakpoint(large up) {
+            font-size: 3.75rem;
+        }
+    }
+
+    p a {
+        color: #fff;
+        font-size: 1.3125rem;
+        font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+        font-weight: bold;
+        margin-bottom: 0.625rem;
+
+        @include breakpoint(large up) {
+            font-size: 1.5rem;
+        }
+    }
+}
+
 @media print {
     .wsuheader, .wsufooter {
         background: transparent;
