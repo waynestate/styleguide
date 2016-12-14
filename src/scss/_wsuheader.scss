@@ -213,6 +213,7 @@
 
 .wsu-mission-overlay {
     position: absolute;
+    z-index:1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -221,6 +222,8 @@
 }
 
 .wsu-mission {
+    position: relative;
+    z-index: 2;
     padding: 2.5rem;
 
     @include breakpoint(large up) {
