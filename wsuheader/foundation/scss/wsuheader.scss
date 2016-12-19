@@ -174,15 +174,16 @@
     h2 a {
         color: #fff;
         font-family: 'Fjalla One',Lato,Arial,Helvetia,sans-serif;
-        font-size: 50px;
+        font-size: 44px;
         font-weight: normal;
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         text-transform: uppercase;
         line-height: 0.9em;
-        margin: 0 0 1.75rem 0;
+        margin: 0.2em 0 1.7rem 0;
+        display: block;
 
         @media #{$large-up} {
-            font-size: 56px;
+            font-size: 50px;
         }
     }
 
@@ -192,7 +193,7 @@
         font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         font-weight: normal;
-        margin-bottom: 0.625rem;
+        margin-bottom: 0.5rem;
 
         @media #{$large-up} {
             font-size: 26px;
