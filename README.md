@@ -19,3 +19,5 @@ Wayne State University global header/footer and other general styles. Build on [
     * Smarty <pre>{include "partials/mission.tpl"}</pre>
 3. Edit the gulp file to move the mission template AND the background image from node modules into the project
     * Search for 'styleguide' and add a line to move 'mission-bg.jpg' and 'mission.blade.php' or 'mission.tpl'
+
+![desktop](http://waynestate.github.io/styleguide/images/university-mission.jpg "University Mission Footer")
