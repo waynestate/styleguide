@@ -206,7 +206,7 @@
 }
 
 .wsu-mission-background {
-    background: url('//wayne.edu/promos/2960/mission-bg.jpg') no-repeat center;
+    background: url('../../dist/mission-bg.jpg') no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -230,7 +230,7 @@
 
     h2 a {
         color: #fff;
-        font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
+        font-family: 'Fjalla One',Lato,Arial,Helvetia,sans-serif;
         font-size: 3.125rem;
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         text-transform: uppercase;
