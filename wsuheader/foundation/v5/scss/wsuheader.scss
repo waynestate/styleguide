@@ -138,7 +138,7 @@
   position: relative;
   padding: 2.5rem;
 
-  @include breakpoint(large up) {
+  @media #{$large-up} {
     padding: 3.75rem;
   }
 
@@ -152,7 +152,7 @@
     line-height: 0.9em;
     margin: 0 0 1.75rem 0;
 
-    @include breakpoint(large up) {
+    @media #{$large-up} {
       font-size: 3.5rem;
     }
   }
@@ -165,7 +165,7 @@
     font-weight: bold;
     margin-bottom: 0.625rem;
 
-    @include breakpoint(large up) {
+    @media #{$large-up} {
       font-size: 1.79rem;
     }
   }
