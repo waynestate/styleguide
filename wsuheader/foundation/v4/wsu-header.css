@@ -133,27 +133,29 @@
 .wsu-mission h2 a {
 	color: #fff;
 	font-family: 'Fjalla One',Lato,Arial,Helvetia,sans-serif;
-	font-size: 50px;
+	font-size: 44px;
 	font-weight: normal;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 	text-transform: uppercase;
 	line-height: 0.9em;
-	margin: 0 0 1.75rem 0;
+	margin: 0.2em 0 1.7rem 0;
+	display: block;
 }
 
 @media screen and (min-width: 37.5em) {
 	.wsu-mission h2 a {
-		font-size: 56px;
+		font-size: 50px;
 	}
 }
 
 .wsu-mission p a {
 	color: #fff;
 	font-size: 21px;
+	line-height: 1.3em;
 	font-family: Lato, Noto Sans, Arial, Helvetia, sans-serif;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 	font-weight: normal;
-	margin-bottom: 0.625rem;
+	margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 37.5em) {
