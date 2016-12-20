@@ -251,6 +251,7 @@
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         font-weight: bold;
         margin-bottom: 1.8rem;
+        display: block;
 
         @include breakpoint(large up) {
             font-size: 1.79rem;
