@@ -231,7 +231,7 @@
     h2 a {
         color: #fff;
         font-family: 'Fjalla One',Lato,Arial,Helvetia,sans-serif;
-        font-size: 44px;
+        font-size: 3.125rem;
         font-weight: normal;
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         text-transform: uppercase;
@@ -240,20 +240,20 @@
         display: block;
 
         @include breakpoint(large up) {
-            font-size: 50px;
+            font-size: 3.5rem;
         }
     }
 
     p a {
         color: #fff;
-        font-size: 21px;
+        font-size: 1.3125rem;
         font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
         text-shadow: 0 1px 1px rgba(0,0,0,0.5);
         font-weight: bold;
-        margin-bottom: 0.625rem;
+        margin-bottom: 0.5rem;
 
         @include breakpoint(large up) {
-            font-size: 26px;
+            font-size: 1.79rem;
         }
     }
 }
