@@ -18,11 +18,8 @@
 
     .wsuwordmark {
         text-align: center;
-
-        @include breakpoint(large up) {
-            text-align: left;
-            margin-top: 15px;
-        }
+        text-align: left;
+        margin-top: 15px;
 
         a {
             white-space: nowrap;
@@ -55,32 +52,14 @@
     }
 
     .wsusearch {
-        text-align: center;
-
-        @include breakpoint(large up) {
-            text-align: right;
-        }
+        text-align: right;
 
         a {
             color: #fff;
             text-decoration: none;
-            padding: 2px;
-            margin: 0;
-            font-size: 0.9em;
-
-            @include breakpoint(small only) {
-                font-size: 0.8em;
-            }
-
-            @include breakpoint(large up) {
-                font-size: 0.82em;
-            }
-
-            @include breakpoint(xlarge up) {
-                font-size: 1em;
-                padding: 3px;
-                margin: 0 1px;
-            }
+            font-size: 1em;
+            padding: 3px;
+            margin: 0 1px;
 
             &:hover {
                 background: #006666;
@@ -98,11 +77,7 @@
             list-style: none;
             margin: 0;
             padding: 0 0 5px;
-            font-size: 1.1em;
-
-            @include breakpoint(large up) {
-                font-size: 1.0em;
-            }
+            font-size: 1.0em;
 
             li {
                 display: inline-block;
@@ -122,10 +97,7 @@
         form {
             margin: 0;
             padding: 0;
-
-            @include breakpoint(large up) {
-                margin-bottom: 5px;
-            }
+            margin-bottom: 5px;
 
             input, button {
                 border: none;
@@ -144,11 +116,17 @@
 
                 // Change these to adjust the height/width of the search button
                 font-size: 1.4em;
-                padding: .35em .4em;
+                padding: 0;
             }
 
             label {
                 display: none;
+            }
+
+            .input-group-button {
+                border-radius: 0;
+                border: 0;
+
             }
         }
 
@@ -199,63 +177,7 @@
     }
 
     .copyright {
-        @include breakpoint(large up) {
-            text-align: right;
-        }
-    }
-}
-
-.wsu-mission-background {
-    background: url('/_resources/images/mission-bg.jpg') no-repeat center;
-    background-size: cover;
-    position: relative;
-}
-
-.wsu-mission-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.wsu-mission {
-    position: relative;
-    padding: 2.5rem;
-
-    @include breakpoint(large up) {
-        padding: 3.75rem;
-    }
-
-    h2 a {
-        color: #fff;
-        font-family: 'Fjalla One',Lato,Arial,Helvetia,sans-serif;
-        font-size: 3.125rem;
-        font-weight: normal;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-        text-transform: uppercase;
-        line-height: 0.9em;
-        margin: 0.35em 0 1.8rem 0;
-        display: block;
-
-        @include breakpoint(large up) {
-            font-size: 3.5rem;
-        }
-    }
-
-    p a {
-        color: #fff;
-        font-size: 1.3125rem;
-        font-family: Lato,Noto Sans,Arial,Helvetia,sans-serif;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-        font-weight: bold;
-        margin-bottom: 1.8rem;
-        display: block;
-
-        @include breakpoint(large up) {
-            font-size: 1.79rem;
-        }
+        text-align: right;
     }
 }
 

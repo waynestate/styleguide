@@ -1,7 +1,7 @@
 Wayne State Style Guide
 =========
 
-Wayne State University global header/footer and other general styles. Build on [Zurb Foundation 6](http://foundation.zurb.com/).
+Wayne State University global header/footer and other general styles. Build on [Bootstrap 3.3.x](https://getbootstrap.com/).
 
 ## Desktop
 ![desktop](http://waynestate.github.io/styleguide/images/header-fd5-desktop.png "Header on the desktop")
@@ -12,12 +12,45 @@ Wayne State University global header/footer and other general styles. Build on [
 ## Mobile
 ![mobile](http://waynestate.github.io/styleguide/images/header-fd5-mobile.png "Header on the mobile")
 
-## University Mission
-1. Add Fjalla One to the master layout header <pre>&lt;link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"&gt;</pre>
-2. Include mission.tpl or mission.blade.php in the master layout
-    * Blade <pre>@include('partials.mission')</pre>
-    * Smarty <pre>{include "partials/mission.tpl"}</pre>
-3. Edit the gulp file to move the mission template AND the background image from node modules into the project
-    * Search for 'styleguide' and add a line to move 'mission-bg.jpg' and 'mission.blade.php' or 'mission.tpl'
+Compile with Bootstrap 3.3.x
+=========
 
-![desktop](http://waynestate.github.io/styleguide/images/university-mission.jpg "University Mission Footer")
+Install the latest bootstrap-sass npm package
+
+```
+npm install bootstrap-sass --save-dev
+npm install git://github.com/waynestate/styleguide.git#feature/bootstrap3 --save-dev
+```
+
+Add bootstrap and the wsuheader styles in the app stylesheet
+
+```
+// Framework
+@import "partials/vars";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// University specific
+@import "node_modules/@waynestate/styleguide/src/scss/wsuheader";
+
+// Site specific
+...
+```
+
+Copy the blade templates into the `views` directory
+
+```
+mkdir -p app/resources/views/partials/
+cp node_modules/@waynestate/styleguide/src/blade/*.blade.php app/resources/views/partials/
+```
+
+Include the blade templates in the view
+
+```
+<body>
+
+@include('partials.header')
+...
+
+@include('partials.footer')
+</body>
+```
