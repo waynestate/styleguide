@@ -15,7 +15,7 @@
 	        </nav>
 	        
 	        <div class="search">
-		        <form method="get" action="http://wayne.edu/search/">
+		        <form method="get" action="https://wayne.edu/search/">
 					<input name="q" placeholder="Search..." type="text"><button type="submit" class="button postfix right"><span class="general-foundicon-search"></span></button>
 				</form>
 	        </div>
