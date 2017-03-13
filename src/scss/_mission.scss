@@ -1,0 +1,64 @@
+.wsu-mission-background {
+  background: url('mission-bg.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.wsu-mission-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wsu-mission {
+  position: relative;
+  padding: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  .wsu-mission {
+    padding: 3.75rem;
+  }
+}
+
+.wsu-mission h2 a {
+  color: #fff;
+  font-family: 'Fjalla One', Arial, Helvetia, sans-serif;
+  font-size: 3.125rem;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 0.9em;
+  margin: 0.35em 0 1.8rem 0;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .wsu-mission h2 a {
+    font-size: 3.5rem;
+  }
+}
+
+.wsu-mission p a {
+  color: #fff;
+  font-size: 1.3125rem;
+  font-family: Lato, Arial, Helvetia, sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1.8rem;
+  display: block;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+@media (min-width: 600px) {
+  .wsu-mission p a {
+    font-size: 1.79rem;
+  }
+}
