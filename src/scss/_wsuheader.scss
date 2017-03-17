@@ -57,7 +57,7 @@
     .wsusearch {
         text-align: center;
 
-        @media (min-width: 600px) {
+        @include breakpoint(large up) {
             text-align: right;
         }
 
@@ -68,15 +68,15 @@
             margin: 0;
             font-size: 0.9em;
 
-            @media (max-width: 300px) {
+            @include breakpoint(small only) {
                 font-size: 0.8em;
             }
 
-            @media (min-width: 600px) {
+            @include breakpoint(large up) {
                 font-size: 0.82em;
             }
 
-            @media (min-width: 900px) {
+            @include breakpoint(xlarge up) {
                 font-size: 1em;
                 padding: 3px;
                 margin: 0 1px;
@@ -100,7 +100,7 @@
             padding: 0 0 5px;
             font-size: 1.1em;
 
-            @media (min-width: 600px) {
+            @include breakpoint(large up) {
                 font-size: 1.0em;
             }
 
@@ -123,7 +123,7 @@
             margin: 0;
             padding: 0;
 
-            @media (min-width: 600px) {
+            @include breakpoint(large up) {
                 margin-bottom: 5px;
             }
 
@@ -199,7 +199,7 @@
     }
 
     .copyright {
-        @media (min-width: 600px) {
+        @include breakpoint(large up) {
             text-align: right;
         }
     }
@@ -224,7 +224,7 @@
     position: relative;
     padding: 2.5rem;
 
-    @media (min-width: 600px) {
+    @include breakpoint(large up) {
         padding: 3.75rem;
     }
 
@@ -239,7 +239,7 @@
         margin: 0.35em 0 1.8rem 0;
         display: block;
 
-        @media (min-width: 600px) {
+        @include breakpoint(large up) {
             font-size: 3.5rem;
         }
     }
@@ -253,7 +253,7 @@
         margin-bottom: 1.8rem;
         display: block;
 
-        @media (min-width: 600px) {
+        @include breakpoint(large up) {
             font-size: 1.79rem;
         }
     }
