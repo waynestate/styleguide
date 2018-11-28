@@ -1,3 +1,51 @@
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+.skip a {
+    height: 0;
+    width: 0;
+    text-align: left;
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    left: -1000px;
+}
+.skip a:active,
+.skip a:focus,
+.skip a:hover {
+    left: 0;
+    top: 0;
+    overflow: visible;
+    z-index: 500;
+    width: auto;
+    height: auto;
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .formy {
     // Fieldsets
     fieldset {
@@ -6,7 +54,7 @@
         border: none;
 
         legend {
-            display: none;
+            font-weight: normal;
         }
     }
 
@@ -120,8 +168,8 @@
     }
 
     // Examples
-    label em {
-        color: #ff0000;
+    label em, legend em {
+        color: #e60000;
     }
 
     // Recaptcha V2 style
